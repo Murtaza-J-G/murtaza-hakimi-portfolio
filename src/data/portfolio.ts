@@ -1,6 +1,7 @@
 import PersonalPortfolioImg from "../assets/images/image.png";
-import FoodOrderApp from "../assets/images/portfolio1.png";
-import NewsPortalApp from "../assets/images/portfolio2.png";
+import FoodOrderApp from "../assets/images/portfolio2.png";
+import NewsPortalApp from "../assets/images/portfolio1.png";
+import AppointmentImg from "../assets/images/appointment.jpg";
 
 export type ProjectCategory =
   | "All"
@@ -49,7 +50,7 @@ export const projects: Project[] = [
     ],
     accent: "from-violet-500/30 to-cyan-400/10",
     image:
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
+      AppointmentImg,
   },
   {
     slug: "news-portal",

@@ -1,75 +1,92 @@
-# React + TypeScript + Vite
+# Murtaza Hakimi — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website showcasing my background, technical skills, and selected web development projects.
 
-Currently, two official plugins are available:
+🌐 **Live Website:** [View Portfolio](https://murtaza-hakimi-portfolio-e9sx-96p17npm5-parday.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+💻 **GitHub Repository:** [View Source Code](https://github.com/Murtaza-J-G/murtaza-hakimi-portfolio)
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is my personal developer portfolio, built to present my skills, projects, and experience in web development. It provides recruiters, employers, and fellow developers with an overview of my work.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Personal introduction and developer profile
+- Technical skills section
+- Selected projects showcase
+- Navigation between portfolio sections
+- Contact information
+- Responsive design for different screen sizes
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+*Note: Update this list to match the features implemented in the website.*
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Technologies
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Git and GitHub
+- Vercel
 
+*Keep only the technologies actually used in the project.*
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Murtaza-J-G/murtaza-hakimi-portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate to the project directory:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+cd murtaza-hakimi-portfolio
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal.
+
+## Production Build
+
+To build the project for production, run:
+
+```bash
+npm run build
+```
+
+The generated production files will be available in the `dist` directory.
+
+## Deployment
+
+The portfolio is deployed on Vercel.
+
+Visit the live website:
+[https://murtaza-hakimi-portfolio-e9sx-96p17npm5-parday.vercel.app](https://murtaza-hakimi-portfolio-e9sx-96p17npm5-parday.vercel.app)
+
+## Contact
+
+- **GitHub:** [Murtaza-J-G](https://github.com/Murtaza-J-G)
+- **Portfolio:** [Visit Website](https://murtaza-hakimi-portfolio-e9sx-96p17npm5-parday.vercel.app)
+
+Thank you for visiting my portfolio repository!

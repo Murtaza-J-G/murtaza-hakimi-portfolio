@@ -2,6 +2,8 @@ import PersonalPortfolioImg from "../assets/images/image.png";
 import FoodOrderApp from "../assets/images/portfolio2.png";
 import NewsPortalApp from "../assets/images/portfolio1.png";
 import AppointmentImg from "../assets/images/appointment.jpg";
+// import { LinkedIn } from "lucide-react";
+// import { linkedin } from "react-icons";
 
 export type ProjectCategory =
   | "All"
@@ -163,11 +165,17 @@ export const skillGroups = [
 
 export const socialLinks = [
   {
-    label: "GitHub",
-    href: "https://github.com/",
+    label: "Github",
+    href: "https://github.com/Murtaza-J-G/murtaza-hakimi-portfolio",
+    // icon: Github,
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/mortaza_hakimi",
+    
+  },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/murtaza_jaghori",
   },
 ];

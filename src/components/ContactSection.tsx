@@ -2,43 +2,20 @@ import { useState, type FormEvent } from "react";
 import {
   AnimatePresence,
   motion,
-  useReducedMotion,
-  useScroll,
-  useTransform,
-  useMotionValueEvent,
 } from "framer-motion";
 
 import {
-  BrowserRouter,
-  Link,
-  Route,
-  Routes,
-  useLocation,
-  useParams,
-} from "react-router-dom";
-
-import {
-  ArrowDown,
-  ArrowDownRight,
-  ArrowLeft,
-  ArrowRight,
   ArrowUpRight,
   CheckCircle2,
-  Code2,
   ExternalLink,
   // Github,
-  Layers3,
   Mail,
-  Menu,
-  X,
+  // LinkedIn,
+  Phone,
 } from "lucide-react";
 
 import {
-  projects,
-  skillGroups,
   socialLinks,
-  type Project,
-  type ProjectCategory,
 } from "../data/portfolio";
 
 function Container({
@@ -195,6 +172,16 @@ function ContactSection() {
                 <Mail size={19} />
               </span>
               m.hakimi2033@gmail.com
+            </a>
+            <br />
+            <a
+              href="phone:0093796765626"
+              className="inline-flex items-center mt-2 gap-3 text-sm text-zinc-300 transition hover:text-violet-200"
+            >
+              <span className="grid size-11 place-items-center rounded-xl border border-white/10 bg-white/5">
+                <Phone size={19} />
+              </span>
+              0093796765626
             </a>
 
             <div className="mt-7 flex gap-3">

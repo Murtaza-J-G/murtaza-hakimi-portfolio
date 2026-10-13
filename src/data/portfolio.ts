@@ -2,6 +2,8 @@ import PersonalPortfolioImg from "../assets/images/image.png";
 import FoodOrderApp from "../assets/images/portfolio2.png";
 import NewsPortalApp from "../assets/images/portfolio1.png";
 import AppointmentImg from "../assets/images/appointment.jpg";
+import PardayImg from "../assets/images/parday website.jpg";
+
 // import { LinkedIn } from "lucide-react";
 // import { linkedin } from "react-icons";
 
@@ -26,6 +28,36 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  {
+    slug: "parday-software-solution",
+    title: "Parday Software Solution",
+    liveUrl: "https://parday-software-solution.vercel.app/",
+    category: "Full Stack",
+    description:
+      "A Persian/Farsi, RTL company landing page built with **Next.js App Router, Tailwind CSS v4, Framer Motion, TypeScript, and Lucide icons**.",
+    problem:
+      "If a company needs websites and show their works to customers there are our solutions.",
+    solution:
+      "Designed a Next JS-based application with beautiful Frontend that created with tailwind css, reusable service logic and responsive design.",
+    features: [
+      "RTL",
+      "Modern Design",
+      "Modern Hero Section",
+      "Services Section",
+      "About Us Section",
+      "Portfolio / Project Showcase",
+    ],
+    technologies: [
+      "Next JS",
+      "Tailwind CSS",
+      "Framer Motion",
+      
+    ],
+    accent: "from-violet-500/30 to-cyan-400/10",
+    image:
+      PardayImg,
+  },
+
   {
     slug: "ai-doctor-appointment",
     title: "AI Doctor Appointment",
@@ -99,6 +131,7 @@ export const projects: Project[] = [
   {
     slug: "developer-portfolio",
     title: "Developer Portfolio",
+    liveUrl: "https://murtazahakimiportfolio.netlify.app/",
     category: "Frontend",
     description:
       "A personal portfolio showcasing full-stack engineering skills through polished visuals and interactive project stories.",
